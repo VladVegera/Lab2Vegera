@@ -1,37 +1,62 @@
 namespace Lab2Vegera
 {
-    public partial class Form1 : Form
+    public partial class Form : System.Windows.Forms.Form
     {
+        //экземпляр класса CLock
         Clock clock = new Clock();
-        public Form1()
+        public Form()
         {
             InitializeComponent();
             clock.secondT = Tick;
+            KeyPreview = true;
         }
-
-        private void startToolStripMenuItem_Click(object sender, EventArgs e)
+        //Метод для запуска часов
+        private void StartClock()
         {
-            clock.timer.Start();
+            clock.StartClock();
         }
-
-        private void stopToolStripMenuItem_Click(object sender, EventArgs e)
+        //Метод для остановки часов
+        private void StopClock()
         {
-            clock.timer.Stop();
+            clock.StopClock();
+            //обнуление значения textBox
             textBox1.Text = null;
             textBox2.Text = null;
             textBox3.Text = null;
         }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
+        //Метод для обновления значений времени в textBox
         private void Tick()
         {
             textBox1.Text = clock.getTime("Moscow").ToString("HH:mm:ss");
             textBox2.Text = clock.getTime("London").ToString("HH:mm:ss");
             textBox3.Text = clock.getTime("Vladivostok").ToString("HH:mm:ss");
+        }
+        //Запуск часов через меню
+        private void StarClick(object sender, EventArgs e)
+        {
+            StartClock();
+        }
+        //Остановка часов через меню
+        private void StopClick(object sender, EventArgs e)
+        {
+            StopClock();
+        }
+        //Выход из программы через меню
+        private void ExitClick(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+        //Обработка нажатия клавиш для запуска программы
+        private void DownKey(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.S && e.Alt)
+            {
+                StartClock();
+            }
+            if (e.KeyCode == Keys.C && e.Alt)
+            {
+                StopClock();
+            }
         }
     }
 }

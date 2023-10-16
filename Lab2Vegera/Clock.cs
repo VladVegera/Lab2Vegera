@@ -8,7 +8,7 @@
         public System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         private DateTime TimeNow = DateTime.Now;
 
-        //шаблон класса Clock
+        //конструктор класса Clock
         public Clock()
         {
             timer.Interval = 1000;
@@ -35,6 +35,17 @@
             TimeCity.Add("London", TimeSpan.FromHours(-2));
             TimeCity.Add("Vladivostok", TimeSpan.FromHours(7));
         }
-        
+
+
+        //Метод запуска таймера для часов
+        public void StartClock()
+        {
+            timer.Start();
+        }
+        //Метод остановки таймера для часов
+        public void StopClock() 
+        {
+            timer.Stop();
+        }
     }
 }

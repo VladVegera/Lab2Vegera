@@ -9,6 +9,14 @@
       "Lab2Vegera/1.0.0": {
         "runtime": {
           "Lab2Vegera.dll": {}
+        },
+        "resources": {
+          "en/Lab2Vegera.resources.dll": {
+            "locale": "en"
+          },
+          "ru/Lab2Vegera.resources.dll": {
+            "locale": "ru"
+          }
         }
       }
     }
