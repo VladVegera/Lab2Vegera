@@ -1,0 +1,16 @@
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\bin\Debug\net6.0-windows\Lab2Vegera.exe
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\bin\Debug\net6.0-windows\Lab2Vegera.deps.json
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\bin\Debug\net6.0-windows\Lab2Vegera.runtimeconfig.json
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\bin\Debug\net6.0-windows\Lab2Vegera.dll
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\bin\Debug\net6.0-windows\Lab2Vegera.pdb
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.Form1.resources
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.csproj.GenerateResource.cache
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.AssemblyInfoInputs.cache
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.AssemblyInfo.cs
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.csproj.CoreCompileInputs.cache
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.dll
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\refint\Lab2Vegera.dll
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.pdb
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\Lab2Vegera.genruntimeconfig.cache
+C:\Users\VladVegera\source\repos\Lab2Vegera\Lab2Vegera\obj\Debug\net6.0-windows\ref\Lab2Vegera.dll
