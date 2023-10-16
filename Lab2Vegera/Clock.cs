@@ -1,11 +1,11 @@
-﻿namespace Lab2Vegera
+﻿namespace OOP_Lab2
 {
     class Clock
     {
         private static Dictionary<string, TimeSpan> TimeCity = new Dictionary<string, TimeSpan>();
         public delegate void SecondTick();
         public SecondTick secondT;
-        public System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+        private System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         private DateTime TimeNow = DateTime.Now;
 
         //конструктор класса Clock
@@ -22,7 +22,7 @@
         {
             return TimeNow + TimeCity[city];
         }
-        //
+        //Каждую секунду обновляет время
         private void Tick(object sender, EventArgs e)
         {
             TimeNow = DateTime.Now;

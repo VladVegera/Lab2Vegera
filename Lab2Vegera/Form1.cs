@@ -1,4 +1,4 @@
-namespace Lab2Vegera
+namespace OOP_Lab2
 {
     public partial class Form : System.Windows.Forms.Form
     {

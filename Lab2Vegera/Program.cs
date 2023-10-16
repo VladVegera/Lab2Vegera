@@ -1,4 +1,4 @@
-namespace Lab2Vegera
+namespace OOP_Lab2
 {
     internal static class Program
     {
@@ -8,6 +8,7 @@ namespace Lab2Vegera
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             ApplicationConfiguration.Initialize();
             Application.Run(new Form());
